@@ -1,6 +1,6 @@
 ;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;Created by Kuntal Das
-;Xtreme Labs,Team SDK
+;Xtreme Labs
 ;Xtreme Note
 ;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -228,7 +228,7 @@ Func _Main()
 ;about button
 
 		 Case $msg = $About
-			MsgBox(0, "About Xtreme Note", "Xtreme Note v1.0" & @CRLF & "Copyright 2014" & @CRLF & "Created By Xtreme Labs"& @CRLF & "Xtreme Note is Created by Kuntal Das,Xtreme Labs, Team SDK.")
+			MsgBox(0, "About Xtreme Note", "Xtreme Note v1.0" & @CRLF & "Copyright 2014" & @CRLF & "Created By Xtreme Labs"& @CRLF & "Xtreme Note is Created by Kuntal Das,Xtreme Labs.")
 ;new button
 
 		 Case $msg = $New
